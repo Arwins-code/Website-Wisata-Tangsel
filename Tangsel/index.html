@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--text font-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Boogaloo|Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--text font-->
+    <!--cloudflare materialize-->
+    <!--cloudflare materialize-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-16x16.png">
+    <!--Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|DM+Serif+Text&display=swap" rel="stylesheet">
+    <!-- Propeller CSS -->
+    <link rel="stylesheet" href="css/propeller.min.css">
+    <title>Tangerang Selatan</title>
+    <!--pop-up-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+
+    <style type="text/css">
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=70);
+            -moz-opacity: 0.7;
+            -khtml-opacity: 0.7;
+            opacity: 0.7;
+            z-index: 100;
+            display: none;
+        }
+
+        .cnt223 a {
+            text-decoration: none;
+        }
+
+        .popup {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+
+        .cnt223 {
+            min-width: 600px;
+            width: 600px;
+            min-height: 150px;
+            margin: 100px auto;
+            background: #f3f3f3;
+            position: relative;
+            z-index: 103;
+            padding: 15px 35px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #000;
+        }
+
+        .cnt223 p {
+            clear: both;
+            color: #555555;
+            /* text-align: justify; */
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+        .cnt223 p a {
+            color: #d91900;
+            font-weight: bold;
+        }
+
+        .cnt223 .x {
+            float: right;
+            height: 35px;
+            left: 22px;
+            position: relative;
+            top: -25px;
+            width: 34px;
+        }
+
+        .cnt223 .x:hover {
+            cursor: pointer;
+        }
+    </style>
+    <!--pop-up-->
+
+
+</head>
+
+<body>
+    <!--popup-->
+    <script type='text/javascript'>
+        $(function () {
+            var overlay = $('<div id="overlay"></div>');
+            overlay.show();
+            overlay.appendTo(document.body);
+            $('.popup').show();
+            $('.close').click(function () {
+                $('.popup').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
+
+
+
+
+            $('.x').click(function () {
+                $('.popup').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
+        });
+    </script>
+
+
+    <div class='popup'>
+        <div class='cnt223'>
+            <h1>Important Notice</h1>
+            <p>
+                <img src="img/BUANG SAMPAH PADA TEMPATNYA-01.jpg" style=" height: 10cm; width: 14cm; ">
+                <br />
+                <br />
+                <a href='' class='close'>Setuju</a>
+            </p>
+        </div>
+    </div>
+    <!--popup-->
+
+    <header id="container">
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Wisata Alam Buatan
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="kdjurang.html">Kandang Jurang Doank</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Wisata Budaya
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="rbpuspobdy.html">Rumah Budaya Puspobudoyo</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Wisata Religi
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="mktajug.html">Makam Kramat Tajug</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Wisata Rekreasi
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Taman Kota 1 </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Wisata Edukasi
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Kampung Dongeng Indonesia</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Ekonomi Kreatif
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Desa Wisata Kranggan</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--jumbotron-->
+        <div class="jumbotron jumbotron-fluid" style="background-color:#f7f7f7">
+            <div class="container text-center">
+                <h1 class="display-6">
+                    <img src="img/Tangsel.jpg" alt="Tangsel" class="tlogo">
+                    <span style="color: rgb(0, 0, 0); font-size: 45px; text-align-last: auto">Pusat Informasi Wisata
+                        Kota Tangerang Selatan</span>
+                </h1>
+            </div>
+        </div>
+        <!--background image-->
+        <div id="intro" class="view">
+            <div class="full-bg-img">
+            </div>
+        </div>
+    </header>
+    <div><br><br><br><br><br><br><br><br><br><br></div>
+
+    <!--isi-->
+    <div class="dow">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/kandang jurang/1.jpg" class="d-block w-100" alt="Kandang Jurang Doank"
+                            style="height: 7cm">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><a href="kdjurang.html">Kandang Jurang Doank</a></h5>
+                            <p>Dikenal dengan sekolah alam, tetapi sebenarnya kandank jurank merupakan....</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/puspobudoyo/1.jpg" class="d-block w-100" alt="Puspobudoyo" style="height: 7cm">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><a href="rbpuspobdy.html">Puspobudoyo</a></h5>
+                            <p>Berawal dari hobi Ibu Luluk yang dahulu mandalami seni tari, berdirilah....</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/taman hutan kota/taman.jpeg" class="d-block w-100" alt="Rmbetawi"
+                            style="height: 7cm">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><a href="thkota2.html">Taman Kota 1</a></h5>
+                            <p>Berlokasi di BSD City Jl. Letnan Sutopo, Lengkong Gudang Timur, Serpong....</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div style="background-color: #212529;">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0" style="color: antiquewhite">Tetap Terhubung Dengan Kami Di Sosial Media
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4" style="color: antiquewhite"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4" style="color: antiquewhite"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g white-text mr-4" style="color: antiquewhite"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4" style="color: antiquewhite"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram white-text" style="color: antiquewhite"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">Location</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a href="https://goo.gl/maps/hqbGPh7g44bhhnqG6" target="blank">Alamat :
+                            Gedung I Lantai 5 Pusat Pemerintahan JL.Maruga Raya No.1 Serua Ciputat 15414 Kota
+                            Tangerang
+                            Selatan, Banten 15321.</p>
+                    </a>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Produk</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Oleh-Oleh</a>
+                    </p>
+                    <p>
+                        <a href="#!">Akomodasi</a>
+                    </p>
+                    <p>
+                        <a href="#!">Tour & Travel</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Lain-lain</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Event</a>
+                    </p>
+
+                    <p>
+                        <a href="#!">Kuliner</a>
+                    </p>
+
+                    <p>
+                        <a href="#!">Bantuan</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i>Kota Tangerang Selatan</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i><span
+                            style="font-size: 12px;">Pariwisata@tangerangselatankota.go.id</span></p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 012-27598909</p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> +62 3000 8000</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: Septi Kusumawati
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!--floating whatsapp-->
+
+    <div class="fab-container">
+        <div class="fab-icon-holder">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+    </div>
+    <!--floating whatsapp-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/propeller.min.js"></script>
+
+</body>
+
+
+</html>
